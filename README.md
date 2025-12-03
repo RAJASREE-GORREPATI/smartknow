@@ -103,7 +103,11 @@ http://localhost:8000/api/health
 
 ```
 
-If you see "status": "ok" → backend is running.
+If you see 
+```
+{status": "ok" } 
+```
+Backend is running successfully.
 
 ## 💬 Open the Frontend : 
 
