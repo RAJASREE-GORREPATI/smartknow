@@ -1,33 +1,39 @@
-SmartKnow – Student Policy Chatbot
+# 🎓 SmartKnow – Student Policy Chatbot
 
-Description : 
+## 📌 Description
 
-SmartKnow is an AI-powered chatbot that helps students quickly find answers about university policies.
-You can ask questions in normal English, and SmartKnow retrieves the correct information from official policy pages and generates a clear, short answer.
+**SmartKnow** is an AI-powered chatbot that helps students quickly find answers about university policies.  
+Ask questions in plain English, and SmartKnow retrieves accurate information from official policy pages and generates a clear, short answer.
 
-SmartKnow uses a complete RAG (Retrieval-Augmented Generation) pipeline, including automatic scraping, text chunking, vector embeddings, Pinecone search, and LLaMA-based response generation.
+SmartKnow uses a complete **RAG (Retrieval-Augmented Generation)** pipeline, including:
 
-The project has:
+- 🕷 Automatic WordPress API scraping  
+- ✂️ Text chunking  
+- 🔢 OpenAI vector embeddings  
+- 🗂 Pinecone vector search  
+- 🧠 LLaMA-based answer generation  
 
-✔ FastAPI backend — handles scraping, embeddings, Pinecone search, and LLM responses
-✔ Modern chat-style frontend — beautifully designed and fully local
-✔ Automatic weekly policy updates — keeps policy data fresh
+---
 
-✔ Real RAG pipeline:
+## ✨ Features
 
-1. Scrape WordPress API
+✔ **FastAPI backend** — scraping, embedding, Pinecone search, LLM answers  
+✔ **Beautiful chat-style frontend** — fully local, modern UI  
+✔ **Automatic weekly updates** — always current policies  
+✔ **End-to-end RAG pipeline**
 
-2. Clean + split text
+### 🔄 RAG Workflow:
 
-3. Generate embeddings
+1. Scrape WordPress API  
+2. Clean and split text  
+3. Generate embeddings  
+4. Store vectors in Pinecone  
+5. Retrieve + rerank using LLaMA  
+6. Generate short, accurate answers  
 
-4. Store in Pinecone
+---
 
-5. Retrieve + rerank using LLaMA
-
-6. Generate short, accurate answers
-
-Project Structure should be like : 
+## 📁 Project Structure
 
 smartknow/
 │── backend.py           # FastAPI backend (RAG pipeline)
@@ -38,13 +44,13 @@ smartknow/
 
 Installation 
 
-1. Clone the Project : 
+1️⃣  Clone the Project : 
 
 git clone https://github.com/RAJASREE-GORREPATI/smartknow.git
 
 cd smartknow
 
-2. Install Required Python Packages: 
+2️⃣ Install Required Python Packages: 
 
 pip install -r requirements.txt
 
@@ -52,7 +58,7 @@ If you don’t have a requirements file, install manually:
 
 pip install fastapi uvicorn openai pinecone-client langchain python-dotenv beautifulsoup4 requests ollama
 
-3. Create a .env File:
+3️⃣ Create a .env File:
 
 Create a file named .env in the project folder and add:
 
@@ -62,7 +68,7 @@ PINECONE_INDEX=smartknow-index
 
 This file is private so I didn't added in github.
 
-4. Run the Backend : 
+🚀 Run the Backend : 
 
 Start the FastAPI server:
 
@@ -74,7 +80,7 @@ http://localhost:8000/api/health
 
 If you see "status": "ok" → backend is running.
 
-5. Open the Frontend : 
+💬 Open the Frontend : 
 
 Just double-click:
 
@@ -82,14 +88,14 @@ frontend.html
 
 The chatbot interface will open in your browser.
 
-Questions you can try : 
+🧪 Questions you can try : 
 
 1. Explain the attendance policy in 2–3 lines.
 2. Describe the student code of conduct briefly.
 3. What steps are required to file an academic appeal?
 4. What is the policy on plagiarism?
 
-Contributing : 
+🤝 Contributing : 
 
 If you want to help improve the project:
 
@@ -102,9 +108,9 @@ If you want to help improve the project:
 4. Open a pull request
 
 
-Contact : 
+📬 Contact : 
 
-Raja Sree Gorrepati
+👤 Raja Sree Gorrepati
 
-Email: rajasreegorrepati@gmail.com
+📧 Email: rajasreegorrepati@gmail.com
 
