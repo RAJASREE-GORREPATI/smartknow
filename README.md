@@ -43,7 +43,7 @@ smartknow/
 
 ---
 
-Installation 
+## Installation 
 
 1️⃣  Clone the Project : 
 
@@ -71,7 +71,7 @@ This file is private so I didn't added in github.
 
 ---
 
-🚀 Run the Backend : 
+## 🚀 Run the Backend : 
 
 Start the FastAPI server:
 
@@ -83,7 +83,7 @@ http://localhost:8000/api/health
 
 If you see "status": "ok" → backend is running.
 
-💬 Open the Frontend : 
+## 💬 Open the Frontend : 
 
 Just double-click:
 
@@ -91,14 +91,16 @@ frontend.html
 
 The chatbot interface will open in your browser.
 
-🧪 Questions you can try : 
+---
+
+## 🧪 Questions you can try : 
 
 1. Explain the attendance policy in 2–3 lines.
 2. Describe the student code of conduct briefly.
 3. What steps are required to file an academic appeal?
 4. What is the policy on plagiarism?
 
-🤝 Contributing : 
+## 🤝 Contributing : 
 
 If you want to help improve the project:
 
@@ -111,7 +113,7 @@ If you want to help improve the project:
 4. Open a pull request
 
 
-📬 Contact : 
+## 📬 Contact : 
 
 👤 Raja Sree Gorrepati
 
