@@ -45,7 +45,7 @@ smartknow/
 
 ## Installation 
 
-1️⃣  Clone the Project : 
+#### 1️⃣  Clone the Project : 
 
 ```
 
@@ -54,7 +54,7 @@ cd smartknow
 
 ```
 
-2️⃣ Install Required Python Packages: 
+#### 2️⃣ Install Required Python Packages: 
 
 ```
 
@@ -70,9 +70,9 @@ pip install fastapi uvicorn openai pinecone-client langchain python-dotenv beaut
 
 ```
 
-3️⃣ Create a .env File:
+#### 3️⃣ Create a ```.env ```File:
 
-Create a file named .env in the project folder and add:
+Create a file named ```.env``` in the project folder and add:
 
 ```
 
