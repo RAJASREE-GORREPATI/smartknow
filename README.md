@@ -35,13 +35,13 @@ SmartKnow uses a complete **RAG (Retrieval-Augmented Generation)** pipeline, inc
 
 ## 📁 Project Structure
 
+```
 smartknow/
 │── backend.py           # FastAPI backend (RAG pipeline)
 │── frontend.html        # Chat UI
 │── .env                 # API keys (not included in GitHub)
 │── requirements.txt     # Dependencies
-
----
+```
 
 ## Installation 
 
@@ -69,7 +69,6 @@ PINECONE_INDEX=smartknow-index
 
 This file is private so I didn't added in github.
 
----
 
 ## 🚀 Run the Backend : 
 
@@ -91,7 +90,6 @@ frontend.html
 
 The chatbot interface will open in your browser.
 
----
 
 ## 🧪 Questions you can try : 
 
