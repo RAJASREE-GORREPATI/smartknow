@@ -47,25 +47,41 @@ smartknow/
 
 1️⃣  Clone the Project : 
 
+```
+
 git clone https://github.com/RAJASREE-GORREPATI/smartknow.git
 
 cd smartknow
 
+```
+
 2️⃣ Install Required Python Packages: 
+
+```
 
 pip install -r requirements.txt
 
+```
+
 If you don’t have a requirements file, install manually:
 
+```
+
 pip install fastapi uvicorn openai pinecone-client langchain python-dotenv beautifulsoup4 requests ollama
+
+```
 
 3️⃣ Create a .env File:
 
 Create a file named .env in the project folder and add:
 
+```
+
 OPENAI_API_KEY=your_key_here
 PINECONE_API_KEY=your_key_here
 PINECONE_INDEX=smartknow-index
+
+```
 
 This file is private so I didn't added in github.
 
@@ -74,7 +90,11 @@ This file is private so I didn't added in github.
 
 Start the FastAPI server:
 
+```
+
 uvicorn backend:app --reload --port 8000
+
+```
 
 Check if it works by opening this link in your browser:
 
