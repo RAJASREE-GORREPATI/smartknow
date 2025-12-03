@@ -32,6 +32,7 @@ SmartKnow uses a complete **RAG (Retrieval-Augmented Generation)** pipeline, inc
 6. Generate short, accurate answers  
 
 ---
+I completed the entire development of this project in Visual Studio Code.
 
 ## 📁 Project Structure
 
