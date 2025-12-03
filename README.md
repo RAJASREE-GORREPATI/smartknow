@@ -50,7 +50,6 @@ smartknow/
 ```
 
 git clone https://github.com/RAJASREE-GORREPATI/smartknow.git
-
 cd smartknow
 
 ```
@@ -98,16 +97,20 @@ uvicorn backend:app --reload --port 8000
 
 Check if it works by opening this link in your browser:
 
+```
+
 http://localhost:8000/api/health
+
+```
 
 If you see "status": "ok" → backend is running.
 
 ## 💬 Open the Frontend : 
 
 Just double-click:
-
+```
 frontend.html
-
+```
 The chatbot interface will open in your browser.
 
 
