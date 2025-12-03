@@ -41,6 +41,7 @@ smartknow/
 │── .env                 # API keys (not included in GitHub)
 │── requirements.txt     # Dependencies
 
+---
 
 Installation 
 
@@ -67,6 +68,8 @@ PINECONE_API_KEY=your_key_here
 PINECONE_INDEX=smartknow-index
 
 This file is private so I didn't added in github.
+
+---
 
 🚀 Run the Backend : 
 
