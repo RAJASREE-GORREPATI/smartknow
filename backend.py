@@ -123,7 +123,6 @@ def fetch_policies_from_api():
         res = requests.get(url)
 
         if res.status_code != 200:
-            print("API status:", res.status_code)
             break
 
         try:
